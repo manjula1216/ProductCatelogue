@@ -37,7 +37,7 @@ public class ProdCatController {
 	@DeleteMapping(value = "get/delete/{id}")
 	public String delResource(@PathVariable("id") int proId){
 		productCatService.delResource(proId);
-		return "deleted sucessfully";
+		return "deleted prod sucessfully";
 	}
 		
 	@GetMapping("/get/{id}")
